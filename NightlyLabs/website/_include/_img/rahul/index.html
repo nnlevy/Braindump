@@ -1,0 +1,518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>:::Nightly Labs::::::::::::::</title>
+<style type="text/css">
+
+* html
+{
+ margin:0px;
+ padding:0px;
+}
+
+body{
+ margin:0px;
+ padding:0px;
+}
+
+div#wrapper{ margin:0px auto -1px auto; }
+
+#header
+{
+width:1200px;
+height:480px;
+background-image:url(headerbg.png); background-repeat:no-repeat;
+}
+
+#content
+{
+width:1200px;
+height:auto;
+}
+
+#seperator{
+
+background-image:url(rectangle_seperator.png); background-repeat:repeat-x; width:1200px; height:23px;}
+
+#content-sub1{
+	background-color:#c4d3d7;
+	width:1200px;
+	height:290px;
+}
+
+#content-sub2{
+background-color:#c4d3d7; width:1200px; height:250px;}
+
+.clearing{ clear:both}
+
+#ornate_seperator{ background-image:url(ornate_header.png); width:1200px; height:163px; background-repeat:repeat-x}
+
+#ornate_seperator ul { padding:0px; margin:0px; list-style:none; }
+
+#ornate_seperator ul li { display:inline}
+
+
+#bottom_seperator{
+
+background-image:url(bottom_rect_seperator.png); background-repeat:repeat-x; width:1200px; height:23px;}
+
+#footer{ background-image:url(footerbg.png); width:1200px; height:231px; background-repeat:repeat-x}
+
+.logo{ background-image:url(logo.png); background-repeat:no-repeat; background-position:bottom; width:221px; height:51px; margin:0px auto; padding-top:100px}
+
+.beauty_title{
+	padding:50px 0px 0px 130px;
+	width:598px;
+	height:28px;
+	float:left;
+	clear: right;
+}
+.beauty_content{
+	width:598px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-size:11px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 130px;
+	vertical-align: top;
+	float: left;
+	clear: right;
+}
+.blog_title{
+	padding:50px 0px 0px 40px;
+	width:200px;
+	height:22px;
+	float:left;
+	vertical-align: top;
+}
+.blog_line{
+	float:left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	clear: right;
+}
+
+
+
+.blog_image{
+	float:left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	clear: right;
+	
+}
+
+.whoweare{
+	float:left;
+	clear:right;
+	padding-left:120px;
+	padding-top: 35px;
+	width:650px;
+}
+
+.spacer_arrow{
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+.spacer_gio{
+	padding-left:20px;
+}
+.spacer_design{
+	padding-left:10px;
+}
+.spacer_nir{
+	padding-left:10px;
+}
+.spacer_nir_twitter
+{
+  padding-left:20px;
+}
+
+.spacer_grey_rect{
+	float:left;
+	padding-left:0px;
+	background-image:url(rectangle_grey.png);
+	background-repeat:no-repeat;
+	width:285px;
+	height:74px;
+	padding-top: 60px;
+	background-position: bottom;
+	clear:right;
+}
+
+.grey_arrow{
+	float:left;
+	padding-top: 85px;
+	padding-left: 15px;
+	}
+.photo_title{
+	float:left;
+	padding:50px 0px 0px 130px;
+	width: 440px;
+	clear:right;
+}
+
+.photo_line{
+	float:left;
+	padding:10px 0px 0px 130px;
+	clear:right;
+}
+
+.startup_line{
+	float:left;
+	padding:10px 0px 0px 10px;
+	clear:right;
+}
+
+
+.startup_title{
+	float:left;
+	padding:50px 0px 0px 10px;
+	width: 440px;
+	clear:right;
+}
+
+.photo_content{
+	float:left;
+	padding:5px 0px 0px 130px;
+	width: 450px;
+	height:130px;
+	clear:right;
+	text-align:center;
+	background-image:url(photo_content.png);
+	background-repeat:no-repeat;
+	background-position:bottom right;
+}
+
+.startup_content{
+	float:left;
+	padding:0px 0px 0px 10px;
+	height:150px;
+	clear:right;
+	background-image:url(startupbg.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	width: 450px;
+}
+.logo_address
+{
+	float:left;
+	clear:right;
+	padding:50px 0px 0px 130px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#707B82;
+	font-size:11px;
+	text-align:right;
+}
+
+.vert_line
+{
+	float:left;
+	clear:right;
+	padding:50px 0px 0px 30px;
+}
+
+.map_location
+{
+	float:left;
+	clear:right;
+	padding:50px 0px 0px 30px;
+}
+.contact_form
+{
+	float:left;
+	clear:right;
+	padding:50px 0px 0px 30px;
+}
+
+.contact_form input.myname
+{
+ float:left;
+ clear:right;
+ width:100px;
+ border:none;
+ color:#707B82; 
+ background-color:#212c34;
+ font-family:Arial, Helvetica, sans-serif;
+	
+	font-size:11px;
+}
+
+.contact_form input.email
+{
+	float:left;
+	clear:none;
+	width:100px;
+	margin-left: 10px;
+	color:#707B82;
+	border:none;
+	background-color:#212c34;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	font-size:11px;
+}
+
+textarea#comments
+{
+    width:210px;	
+	height:80px;
+	color:#707B82;
+    background-color:#212c34;
+	border:none;
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size:11px;
+}
+
+input.submit
+{
+color:#707B82;
+	border:none;
+	background-color:#212c34;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	font-size:11px;
+    float:right;
+	margin-top:5px;
+}
+
+.mycarousel { margin:0px auto}
+
+.mycarousel ul{ list-style:none }
+ 
+.mycarousel ul li{ display:inline; padding-left:20px; }
+
+.spacer_img4 { padding-bottom:23px;}
+
+.startup ul{
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+}
+ 
+.startup ul li{ display:inline; }
+
+
+
+</style>
+
+
+<script type="text/javascript" src="jquery-latest.pack.js"></script>
+<script type="text/javascript" src="jcarousellite_1.0.1.js"></script>
+
+  <script language="javascript">
+  $(function() {
+     $('div#under1').hide();
+      $('div#under2').hide();
+       $('div#under3').hide();
+        $('div#under4').hide();
+    $(".mycarousel").jCarouselLite({
+        btnNext: ".next",
+        btnPrev: ".prev"
+    });
+
+    	 $('div#img1').click(function() {
+ $('div#show1').toggle(400);
+  $('div#under1').toggle(400);
+ return false;
+    });
+	
+	 $('div#img2').click(function() {
+ $('div#show2').toggle(400);
+ $('div#under2').toggle(400);
+ return false;
+    });
+
+	 $('div#img3').click(function() {
+ $('div#show3').toggle(400);
+ $('div#under3').toggle(400);
+ return false;
+    });
+    
+    	 $('div#img4').click(function() {
+ $('div#show4').toggle(400);
+ $('div#under4').toggle(400);
+ return false;
+    });
+});
+
+
+
+
+  </script>
+  
+  
+
+
+</head>
+
+<body>
+<div id="wrapper" >
+<div id="header">
+<div class="logo"></div>
+<br />
+
+<div class="prev" style="float:left; clear:right; padding-right:10px; padding-left: 60px; padding-top: 100px;"><img src="carousel_left.png" /></div>
+
+<div class="mycarousel" style="float:left; clear:right;" > 
+ <ul>
+        <li> <div><img src="slider_img1_top.png" /></div>
+        <div id="show1" style="background-image:url(slider_img1_bg.png); background-repeat:no-repeat; width:228px; height:99px"></div>
+        <div id="img1"><img src="slider_img_button.png" /></div>
+        <div id="under1" style="background-image:url(slider_under1.png); background-repeat:no-repeat; width:228px; height:135px; margin-top:-30px">
+        </div>
+        </li></li>
+        <li>
+        <div><img src="slider_img2_top.png" /></div>
+        <div id="show2" style="background-image:url(slider_img2_bg.png); background-repeat:no-repeat; width:228px; height:99px"></div>
+        <div id="img2"><img src="slider_img_button.png" /></div>
+        <div id="under2" style="background-image:url(slider_under1.png); background-repeat:no-repeat; width:228px; height:135px; margin-top:-30px">
+        </li>
+        <li><div>
+        <img src="slider_img3_top.png" />
+        </div>
+        <div id="show3" style="background-image:url(slider_img3_bg.png); background-repeat:no-repeat; width:228px; height:99px"></div>
+        <div id="img3"><img src="slider_img_button.png" /></div>
+        <div id="under3" style="background-image:url(slider_under1.png); background-repeat:no-repeat; width:228px; height:135px; margin-top:-30px">
+        </li>
+       <li>
+       <div><img src="slider_img4_top.png" /></div>
+       <div id="show4"   style="background-image:url(slider_img4_bg.png); background-repeat:no-repeat; width:228px; height:99px"></div>
+        <div id="img4"><img src="slider_img_button.png" /></div>
+        <div id="under4" style="background-image:url(slider_under1.png); background-repeat:no-repeat; width:228px; height:135px; margin-top:-30px">
+       </li>
+       
+    </ul>
+
+</div>
+<div class="next" style="float:left; clear:right; padding-left:20px; padding-top: 100px;"><img src="carousel_right.png" /></div>
+
+
+</div>
+
+<div id="content">
+<div id="seperator">
+</div>
+<div id="content-sub1">
+
+<div class="beauty_title">
+<img src="beauty_title.png" />
+</div><div class="blog_title"><img src="blog_title.png" /></div>
+<div class="beauty_content">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id volutpat mauris. Sed a purus libero. Praesent commodo orci nec urna viverra posuere. Morbi molestie blandit semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a dictum turpis. Vestibulum arcu risus, egestas quis pharetra nec, tincidunt quis nulla. Integer neque sapien, bibendum suscipit congue ac, scelerisque eget nulla.
+
+<br/> <br/>
+<img src="beauty_image.png" />
+</div>
+
+<div class="blog_line"><img src="blog_line.png" /><br/>
+
+</div>
+<div class="blog_image"><img src="blog_image1.png" /></div>
+
+
+
+</div>
+<div id="ornate_seperator">
+<div class="whoweare">
+
+<ul>
+<li><img src="whoweare_image.png" /></li>
+<li><img src="right_arrow.png" class="spacer_arrow" /></li>
+<li><img src="gio_photo.png" class="spacer_gio" /></li>
+<li><img src="design_coding.png" class="spacer_design"/></li>
+<li><img src="nir_photo.png" class="spacer_nir"/></li>
+<li><img src="nir_twitter.png" class="spacer_nir_twitter"/></li>
+</u></div>
+<div class="spacer_grey_rect">
+
+I'm still
+
+</div>
+<div class="grey_arrow"><img src="grey_arrow.png" /></div>
+
+
+
+</div>
+<div id="content-sub2">
+<div class="photo_title">
+<img src="photography_title.png" />
+</div>
+
+<div class="startup_title">
+<img src="startup_title.png" />
+</div>
+<div class="photo_line">
+<img src="photography_line.png" />
+</div>
+<div class="startup_line">
+<img src="startup_line.png" />
+</div>
+<div class="photo_content"><img src="photo_image.png" width="430" height="130" /></div>
+
+<div class="startup_content">
+<div class="prev" style="float:left; clear:right; padding-right:0px; padding-left: 2px; padding-top: 30px;"><img src="startup_arrowleft.png" /></div>
+
+<div class="startup" style="float:left; clear:right; padding-top: 20px;"> 
+ <ul>        
+  <li><img src="campus_image.png" /></li>       
+   <li><img src="campus_bubble.png" /></li>  
+    </ul>
+
+</div>
+<div class="next" style="float:left; clear:right; padding-left:0px; padding-top: 30px; padding-right: 10px;"><img src="startup_arrowright.png" width="37" height="98" /></div>
+
+
+</div>
+</div>
+
+
+<div id="bottom_seperator">
+</div>
+</div>
+<div class="clearing"></div>
+</div>
+<div id="footer">
+<div class="logo_address">
+<img src="nightly_logo.png" />
+<br/>
+404-647-4465<br />
+<br />
+2410 LaVista Road Atlanta,<br /> 
+GA 30329</div>
+<div class="vert_line">
+<img src="vert_line.png" />
+</div>
+<div class="map_location">
+<img src="map_location.png" />
+</div>
+<div class="vert_line">
+<img src="vert_line.png" />
+</div>
+<div class="contact_form">
+<form method="post">
+<input type="text" name="name" value="name" class="myname" /> <input type="text" name="email" value="email" class="email" />
+<br />
+<br />
+<textarea id="comments">Message </textarea><br />
+
+<input type="submit" value="Send" name="submit" class="submit" />
+
+</form>
+</div>
+
+</div>
+
+
+<div>
+	<div id="img4">img4</div>
+	<div id="show4">show4</div>
+	<div id="under4">under4</div>
+</div>
+
+</body>
+</html>

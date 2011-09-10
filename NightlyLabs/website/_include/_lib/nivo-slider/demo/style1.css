@@ -1,0 +1,261 @@
+/* Header */
+
+@font-face {
+    font-family: 'nevisBold';
+    src: url('../../../Scripts/fontface/nevis-webfont.eot');
+    src: url('../../../Scripts/fontface/nevis-webfont.eot?iefix') format('eot'),
+url('../../../Scripts/fontface/nevis-webfont.woff') format('woff'),
+url('../../../Scripts/fontface/nevis-webfont.ttf') format('truetype'),
+url('../../../Scripts/fontface/nevis-webfont.svg#webfontmtxVVGbs') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KrakenBold';
+    src: url('../../../Scripts/fontface/kraken_bold-webfont.eot');
+    src: url('../../../Scripts/fontface/kraken_bold-webfont.eot?iefix') format('eot'),
+url('../../../Scripts/fontface/kraken_bold-webfont.woff') format('woff'),
+url('../../../Scripts/fontface/kraken_bold-webfont.ttf') format('truetype'),
+url('../../../Scripts/fontface/kraken_bold-webfont.svg#webfontD35MAlvR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KrakenThin';
+    src: url('../../../Scripts/fontface/kraken_thin-webfont.eot');
+    src: url('../../../Scripts/fontface/kraken_thin-webfont.eot?iefix') format('eot'),
+url('../../../Scripts/fontface/kraken_thin-webfont.woff') format('woff'),
+url('../../../Scripts/fontface/kraken_thin-webfont.ttf') format('truetype'),
+url('../../../Scripts/fontface/kraken_thin-webfont.svg#webfontF4E32p8M') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#item-row {
+	width: 172px;
+	height: 25px;
+	margin-left: 7px;
+	margin-bottom: 10px
+}
+
+.item-label {
+	width: 120px;
+	height: 23px;
+	font-family: 'nevisBold', Arial, Helvetica, sans-serif;
+	color:#8DA9B1;
+	font-size: 8px;
+	text-shadow:#000 1px 1px 0px;
+	text-transform:uppercase;
+	float:left;
+	width: 40px;
+	height: 20px;
+}
+.html {
+	color:#CC3399;
+}
+.cms {
+	color:#33CC99;
+}
+.css {
+	color:#CC9966;
+}
+.item-description {
+	font-family: 'nevisBold', Arial, Helvetica, sans-serif;
+	color:#E8E8E8;
+	font-size: 11px;
+	text-shadow:#000 1px 1px 0px;
+	text-transform:uppercase;
+	text-align:right;
+	float:right;
+	width: 120px;
+	height: 23px;
+}
+#button a {
+	width: 70px;
+	height: 25px;
+	border: 1px solid #B4C9CD;
+	display: block;
+	font-family: 'nevisBold', Arial, Helvetica, sans-serif;
+	color: #E8E8E8;
+	font-size: 9px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: #000 1px 1px 0px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 25px;
+	float: right;
+	margin-right: 5px;
+	margin-top: 3px;
+	text-align: center;
+}
+#button a:hover {
+	color:#C4D3D7;
+	text-decoration:underline;
+}
+
+.jcarousel-skin-tango .jcarousel-container {
+	top:33px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+body {
+	background-image: url(../../../Backdrop/Background/bg.jpg);
+
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#transbg {
+	background-image:url(../../../Backdrop/Transparencies/lights.png); 
+	background-repeat:repeat-x;  
+	height:180px; 
+	width:auto;
+	opacity:0.65;filter:alpha(opacity=65);
+
+}
+#darkness {
+	background-image:url(../../../Backdrop/Transparencies/darkness.png); 
+	background-repeat:no-repeat; 
+	width:1057px; 
+	height:400px; 
+	margin-left:auto; 
+	margin-right:auto;
+	position:relative;
+	top:-180px;
+	opacity:0.85;filter:alpha(opacity=85);
+
+}
+#stars{
+	 background-image:url(../../../Backdrop/Sparkling%20Stars/starsbg.png);
+	 background-repeat:repeat-x;  
+	 width:auto; 
+	 height:220px;
+	 position:relative;
+	 top:-580px;
+
+}
+#twinkle{
+	 background-image:url(../../../Backdrop/Sparkling%20Stars/stars2.gif);
+	 background-repeat:repeat-x;  
+	 width:auto; 
+	 height:153px;
+	 position:relative;
+
+}
+#logo{
+	 background-image:url(../../../logo.png);
+	 width:221px; 
+	 height:51px;
+	 position:relative;
+	 margin-left:auto;
+	 margin-right:auto;
+	 top: 97px;
+}
+#logo:hover {
+	opacity:0.75;filter:alpha(opacity=75);
+}
+#itemover {
+	background-image:url(../../placeholder.png);
+	height: 228px;
+	width: 228px;
+}
+#itemover img {
+	position:relative;
+	left: 10px;
+}
+#itemunder {
+	background-image:url(../../placeholder2.png);
+	height: 225px;
+	width: 231px;
+}
+#itemunder img {
+	position:relative;
+	left: 10px;
+	margin-bottom: 27px;
+}
+
+/* Body */
+
+#bgcontainer {
+	margin-top: -342px;
+	background-image:url(../../../../Body/Images/bg.png);
+	height: 1041px;
+}
+#container {
+	width: 945px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+#container {
+	width: 945px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 360px;
+}
+#intro {
+	width: 615px;
+	position: relative;
+	float:left;
+	top: 42px;
+}
+#intro h1 {
+	font-family: 'KrakenBold', Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: #26333F 1px 1px 0px;
+	margin-bottom: 15px;
+}
+#intro span {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #27343F;
+	font-size: 11px;
+	text-decoration: none;
+	text-shadow: #fff 1px 1px 0px;
+	line-height: 20px;
+	width: 585px;
+}
+#intro img {
+	margin-top: 20px;
+	margin-left: 15px;
+}
+#blog {
+	width: 330px;
+	position: relative;
+	float:left;
+	top: 55px;
+	left: 30px;
+	background-color:#BFCED2;
+	height: 275px;
+}
+#blog h1 {
+	font-family: 'KrakenBold', Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: #26333F 1px 1px 0px;
+}
+#blogslider {
+	background-image:url(../../../../Body/Images/blogsliderbg.png);
+	height: 75px;
+	width: 295px;
+}
+	
+	
+	
+	

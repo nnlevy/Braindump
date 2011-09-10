@@ -1,0 +1,269 @@
+@import url("fontface/stylesheet.css");
+
+/* Header */
+
+@font-face {
+    font-family: 'nevisBold';
+    src: url('nevis-webfont.eot');
+    src: url('nevis-webfont.eot?iefix') format('eot'),
+         url('nevis-webfont.woff') format('woff'),
+         url('nevis-webfont.ttf') format('truetype'),
+         url('nevis-webfont.svg#webfontmtxVVGbs') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KrakenBold';
+    src: url('kraken_bold-webfont.eot');
+    src: url('kraken_bold-webfont.eot?iefix') format('eot'),
+         url('kraken_bold-webfont.woff') format('woff'),
+         url('kraken_bold-webfont.ttf') format('truetype'),
+         url('kraken_bold-webfont.svg#webfontD35MAlvR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KrakenThin';
+    src: url('kraken_thin-webfont.eot');
+    src: url('kraken_thin-webfont.eot?iefix') format('eot'),
+         url('kraken_thin-webfont.woff') format('woff'),
+         url('kraken_thin-webfont.ttf') format('truetype'),
+         url('kraken_thin-webfont.svg#webfontF4E32p8M') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #677C83;
+	font-size: 11px;
+	text-decoration: none;
+	text-shadow: #fff 1px 1px 0px;
+	line-height: 20px;
+}	p a {color: #4C6A80;} p a:hover { color: #444; }
+
+h2 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #000; font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+	text-shadow: #fff 1px 1px 0px;
+	line-height: 20px;
+}	h2 a {color: #4C6A80;} p a:hover { color: #444; }
+
+#item-row {
+	width: 172px;
+	height: 25px;
+	margin-left: 7px;
+	margin-bottom: 10px
+}
+
+.item-label {
+	width: 120px;
+	height: 23px;
+	font-family: 'nevisBold', Arial, Helvetica, sans-serif;
+	color:#8DA9B1;
+	font-size: 8px;
+	text-shadow:#000 1px 1px 0px;
+	text-transform:uppercase;
+	float:left;
+	width: 40px;
+	height: 20px;
+	}
+
+.html { color: #CC3399; } .html:hover { color: #ec0ba1; cursor: help; }
+.cms  { color: #33CC99; } .cms:hover  { color: #05f7a5; cursor: help; }
+.css  { color: #CC9966; } .css:hover  { color: #f28920; cursor: help; }
+
+.item-description {
+	font-family: 'nevisBold', Arial, Helvetica, sans-serif;
+	color:#E8E8E8;
+	font-size: 11px;
+	text-shadow:#000 1px 1px 0px;
+	text-transform:uppercase;
+	text-align:right;
+	float:right;
+	width: 120px;
+	height: 23px;
+}
+.button a {
+	width: 70px;
+	height: 25px;
+	border: 1px solid #B4C9CD;
+	display: block;
+	font-family: 'nevisBold', Arial, Helvetica, sans-serif;
+	color: #E8E8E8;
+	font-size: 9px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: #000 1px 1px 0px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 25px;
+	float: right;
+	text-align: center;
+	margin-top: -32px; float: right; margin-right: 50px;
+	}
+	.button a:hover {
+		color: #C4D3D7;
+		text-decoration: underline;
+		cursor: pointer; }
+		.button a:active {
+			border: 1px solid #8DA9B1;
+			background-color: #8DA9B1;
+			}
+
+.jcarousel-skin-tango .jcarousel-container {
+	top:18px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 15px;
+}
+
+body {
+	background-image: url(../_img/header/background/bg.jpg);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+#transbg {
+	background-image: url(../_img/header/transparencies/lights.png);
+	background-repeat:repeat-x;  
+	height:180px; 
+	width:100%;
+	opacity:0.65;filter:alpha(opacity=65);
+
+}
+#darkness {
+	background-image: url(../_img/header/transparencies/darkness.png);
+	background-repeat:no-repeat; 
+	width: 100%; 
+	height: 700px; 
+	margin-left:auto; 
+	margin-right:auto;
+	opacity:0.85;filter:alpha(opacity=85);
+
+}
+#stars{
+	 background-image:url(../_img/header/stars/starsbg.png);
+	 background-repeat:repeat-x;  
+	 width: 100%; 
+	 height:520px;
+}
+#twinkle{
+	 background-image: url(../_img/header/stars/stars2.gif);
+	 background-repeat:repeat-x;
+	 width: 100%; height:453px;
+	 display: block; text-align: center;
+
+}
+#logo1 {
+	margin-left: auto; margin-right: auto; width: 213px;
+	margin-top: 110px;
+	}
+#slider {
+	display: block;
+	height: 640px; margin-top: 0px;
+	margin-bottom: 10px;
+	}		
+		
+#itemover {
+	background-image: url(../_img/header/slider/placeholder.png);
+	height: 228px;
+	width: 228px;
+}
+#itemover img {
+	position:relative;
+	left: 10px;
+}
+#itemunder {
+	height: 225px;
+	width: 231px;
+}
+#itemunder img {
+	position:relative;
+	left: 10px;
+	margin-bottom: 27px;
+}
+
+#itembackground {
+	background-image:url(../_img/header/slider/placeholder2.png);
+	}
+
+/* Body */
+
+#bgcontainer {
+	margin-top: -342px;
+	background-image: url(../_img/body/bg.png);
+	margin-bottom: 20px;
+}
+#container {
+	width: 945px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+#container {
+	width: 945px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 360px;
+}
+#intro {
+	width: 577px;
+	position: relative;
+	float:left;
+	top: 42px;
+}
+#intro h1 {
+	font-family: 'KrakenBold', Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 30px; line-height: 1.3em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: #26333F 1px 1px 0px;
+	margin-bottom: 4px; margin-top:30px;
+}
+#intro span {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #27343F;
+	font-size: 11px;
+	text-decoration: none;
+	text-shadow: #fff 1px 1px 0px;
+	line-height: 20px;
+	width: 585px;
+}
+
+#intro img {
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-bottom: 50px;
+}
+#blog {
+	width: 290px;
+	margin-top: 75px;
+	float:right;
+	height: 215px;
+	margin-right: 60px;
+}
+#blog h1, #blog h1 a {
+	font-family: 'KrakenBold', Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: #26333F 1px 1px 0px;
+	} #blog h1 a:hover { color: #27343f; }
+
+#tier1 {width: 1000px;}
+
+#wrap {margin-bottom: 10px;}

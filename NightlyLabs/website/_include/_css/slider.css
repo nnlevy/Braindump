@@ -1,0 +1,22 @@
+/* Easy Slider */
+
+	#slidersliding ul, #slidersliding li{
+		margin:0;
+		padding:0;
+		width: 431px!important;
+		height: 131px!important;
+		list-style:none;
+		}
+	#slidersliding, #slidersliding li{ 
+		/* 
+			define width and height of container element and list item (slide)
+			list items must be the same size as the slider area
+		*/ 
+		width: 431px;
+		height: 131px;
+		overflow:hidden; 
+		}
+	span#prevBtn{}
+	span#nextBtn{}					
+
+/* // Easy Slider */
