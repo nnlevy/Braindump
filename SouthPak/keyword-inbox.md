@@ -13,6 +13,16 @@ Keywords
 - Promote Corporate Identity with Custom Made and Custom Branded Soft Cases
 - Custom Interiors for Tooling with Smooth Aluminum Exterior
 
+Perspectives
+--------------
+<?php 
+
+$Geography = [North Carolina, California, Georgia, Texas, Florida, New York, Pennsylvania, Illinois, Ohio, New Jersey, Virginia];
+
+echo $Geography[$n];
+
+?>
+
 Operational Process:
 ====================
 
@@ -40,4 +50,3 @@ Element Flow:
 4. research communities where to find target audience
 5. Identify best fit content host
 6. Distribute references to content host
-
