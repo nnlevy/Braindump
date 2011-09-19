@@ -11,7 +11,7 @@ G        => move to end of the file (#G moves to line number)
 v        => start hightingting text (from there do [:w FILENAME] to save the seletion as a new file
 R        => continuous replacement
 j$       => move to the end of the next line
-dit	 => delete between tags
+dit	     => delete between tags
 e        => move to the end of the next word
 
 :r FILENAME             // insert file contents inplace of cursor
