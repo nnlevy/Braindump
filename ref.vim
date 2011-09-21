@@ -13,6 +13,7 @@ R        => continuous replacement
 j$       => move to the end of the next line
 dit	     => delete between tags
 e        => move to the end of the next word
+B OR W	 => previous and next word
 
 :r FILENAME             // insert file contents inplace of cursor
 :s/old/new/g            // replace old with new in entire file /gc prompts for confirmation

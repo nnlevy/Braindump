@@ -54,5 +54,7 @@ When I was a freshman, I thought about
 
 With College Seniors, Pat Shea and Ian McCall, myself and fellow junior, Giovanni Hobbins, we are making this dream a reality. We are excited to work very closely with the university organizations that you are a part of. 
 
-From TEDx to Diwali, from Kegs on the Quad</body>
+From TEDx to Diwali, from Kegs on the Quad
+
+	</body>
 </html>
